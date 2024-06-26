@@ -56,7 +56,7 @@ def extract_number(s):
     return int(''.join(filter(str.isdigit, s)))
 
 # Fetch the file from the URL
-r = requests.get(large_file_url)
+r = requests.get(small_file_url)
 
 # Process each line in the log file
 for line in r.iter_lines():
