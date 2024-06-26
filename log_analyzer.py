@@ -37,7 +37,6 @@
 #   "response_time_mean": 40.0,
 #   "response_time_median": 25.0,
 # }]
-
 import requests
 import json
 
